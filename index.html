@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+   
+
+    <link rel="shortcut icon" type="image/jpg" href="./youtube icon.png"/>
+
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="left">
+    <img src="./Hamburger_icon.svg.png" class="youtube"></img>
+    <span class="youtube">
+      <img src="./youtube icon.png" class="red">
+      <h3>YouTube</h3>
+    </span>
+  </div>
+   <div class="search-container">
+    
+    <input id="search-input" placeholder="Search">
+    
+    <button  onclick="searchVideos()" id="search"  class="material-icons">
+      search
+    </button>
+    <span class="material-icons" id="mic">mic</span>
+   <div class="right">
+    <span class="material-icons">
+      videocam
+      </span>
+    <span class="material-icons">
+      notifications
+      </span>
+   </div>
+   </div>
+
+   
+   <section id="container">
+     <!-- we are creating a div element in js and adding dynamically the image and title of it when the user clicks search button -->
+   </section>
+    <script src="./script.js"></script>
+</body>
+</html>

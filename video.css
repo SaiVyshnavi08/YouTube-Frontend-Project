@@ -1,0 +1,108 @@
+*{
+    color: black;
+}
+
+.video-details{
+   
+    display: flex;
+    padding:10px 20px;
+    justify-content: space-between;
+    color: black;
+    width:780px;
+   
+    
+}
+
+.stats{
+     
+    display:flex;
+    align-items : center;
+    gap:50px;
+   
+}
+
+.like-container{
+    
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    cursor: pointer;
+    border : 1px solid white;
+    background-color: rgb(216, 211, 211);;
+    border-radius: 13px;
+    width:140px;
+}
+
+.like{
+    display: flex;
+    gap:5px;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.comments-container{
+  display:flex;
+  align-items: center;
+  gap:5px;
+  border : 1px solid white;
+  background-color: rgb(226, 222, 222);;
+  border-radius: 13px;
+  width:80px;
+  padding: 0px 5px ;
+}
+
+.owner-details{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+   
+    gap:5px;
+}
+.owner-details > .sub{
+   
+    font-size: 10px;
+    color: gray;
+}
+.profile{
+    display: flex;
+    gap:20px;
+}
+
+.profile > img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+
+#title{
+    margin:20px;
+    font-size: 16px;
+    
+}
+.comment{
+ 
+ display: flex;
+ gap:20px;
+ padding: 20px;
+}
+
+.comment > img{
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+}
+
+.comment-right-half{
+    display: flex;
+    flex-direction: column;
+    gap:1px;
+}
+
+.comment .material-icons {
+    font-size: 10px  !important;
+   color: grey;
+}
+
+.comment p{
+    color: grey;
+}
